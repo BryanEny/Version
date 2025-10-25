@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.inner-container{
+    margin-bottom: 20px;
+}
+
+.card{
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.card-heading{
+    background: #eee;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.container-form{
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
